@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Product} from '../../models/product';
 
 @Component({
   selector: 'app-products',
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
+
+  products: Product[] = 
+    [
+      new Product('Producto uno', 2, 1), 
+      new Product('Product dos', 4, 2), 
+      new Product('Product tres', 8, 3),
+      new Product('Product cuatro', 16, 4)  
+    ];
 
   constructor() { }
 
