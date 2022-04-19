@@ -13,6 +13,11 @@ export class CardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  apply(action: string){
+    console.log(action);
   }
 
 }

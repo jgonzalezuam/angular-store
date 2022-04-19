@@ -9,6 +9,7 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { CardComponent } from './components/card/card.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { ImagenComponent } from './components/imagen/imagen.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -20,7 +21,8 @@ import { ImagenComponent } from './components/imagen/imagen.component';
     ButtonsComponent,
     CardComponent,
     DescriptionComponent,
-    ImagenComponent
+    ImagenComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

@@ -9,7 +9,7 @@
     <ul class="list-unstyled components">
       <p>MENUS</p>
       <li *ngFor="let menu of list_menus"> 
-        <a href=" #" >{{menu.title}}</a>
+        <app-menu [menu]="menu"></app-menu>
       </li>
     </ul>
     <ul class="list-unstyled CTAs">

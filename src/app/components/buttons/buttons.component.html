@@ -1,6 +1,9 @@
 <div class="m-t text-righ">
 
-    <a href="#" class="btn btn-xs btn-outline btn-primary">{{name}}
-      <i class="fa fa-long-arrow-right"></i>
-    </a>
+  <button *ngFor="let b of buttons" class="btn btn-xs btn-outline btn-{{b.type}}" (click)="onClick($event, b.action)">
+    {{b.title}}
+    <i class="fa fa-long-arrow-right"></i>
+  </button>
+
+
 </div>
