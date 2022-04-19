@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {} from './data/menus';
+import {menus } from './data/menus';
+import {Menu} from './models/menu'; 
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,8 @@ import {} from './data/menus';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+list_menus: Menu[] =  menus;
+
   title = 'store';
 }
