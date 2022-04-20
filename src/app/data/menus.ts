@@ -1,8 +1,9 @@
-import {Menu} from '../models/menu';
+import { Menu } from '../models/menu';
+
 
 export const menus: Menu[] = [{
-    title: 'Productos'    
-},{
-    title: 'Otro'
+    title: 'Productos'
+}, {
+    title: 'Perfil'
 }
-];
+]

@@ -1,9 +1,6 @@
 <div class="m-t text-righ">
-
-  <button *ngFor="let b of buttons" class="btn btn-xs btn-outline btn-{{b.type}}" (click)="onClick($event, b.action)">
-    {{b.title}}
-    <i class="fa fa-long-arrow-right"></i>
-  </button>
-
+    <button *ngFor="let b of buttons" class="btn btn-xs btn-outline btn-{{b.type}}" (click)="onClick($event, b.action)">
+        {{ b.title }}
+    </button>
 
 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Menu} from '../../models/menu'; 
+import { Menu } from '../../models/menu';
 
 @Component({
   selector: 'app-menu',
@@ -8,7 +8,7 @@ import {Menu} from '../../models/menu';
 })
 export class MenuComponent implements OnInit {
 
-  @Input() menu: Menu = {title: ''};
+  @Input() menu: Menu = { title: '' };
 
   constructor() { }
 

@@ -7,9 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class DescriptionComponent implements OnInit {
 
-  @Input() description: string = 'Many desktop';
-  @Input() price: number = 30;
-  claseProducto: string = "product-name";
+  @Input() description: string='Many desktop';
+  @Input() price: number= 20;
+  claseProducto: string='product-name';
+
+  
 
   constructor() { }
 
