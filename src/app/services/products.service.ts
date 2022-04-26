@@ -6,11 +6,13 @@ import { Product } from '../models/product';
 })
 export class ProductsService {
 
+  
+
   products: Product[] = [
-    new Product('Descripcion 1', 2, 1),
-    new Product('Descripcion 2', 6, 1),
-    new Product('Descripcion 3', 4, 1),
-    new Product('Descripcion 4', 8, 1)
+    new Product('Pantalon', 2.3241, 1),//Estoy colocando varios decimales para usar decimal pipe y solo ajustarlo con dos
+    new Product('Camisa', 6.5412, 1),
+    new Product('Zapatos', 4, 1),
+    new Product('Abrigo', 8, 1)
   ];
 
 
